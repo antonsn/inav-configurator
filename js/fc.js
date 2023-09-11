@@ -1141,6 +1141,13 @@ var FC = {
                 output: "boolean"
             },
 
+            39: {
+                name: "Anton set heading",
+                operandType: "Set Flight Parameter",
+                hasOperand: [true, true],
+                output: "boolean"
+            },
+
             41: {
                 name: "Override Loiter Radius",
                 operandType: "Set Flight Parameter",
@@ -1268,6 +1275,7 @@ var FC = {
                     35: "AGL status [0/1]",
                     36: "AGL [cm]",
                     37: "Rangefinder [cm]",
+                    38: "Anton get heading",
                 }
             },
             3: {
